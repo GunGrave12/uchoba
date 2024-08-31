@@ -1,0 +1,8 @@
+name= "Борис"
+print("name:",name)
+age= 33
+print("age",age)
+age = age+2
+print("nev age",age)
+is_student= True
+print("is_student:",is_student)

@@ -1,0 +1,4 @@
+kolvo_gotov_DZ = 12
+kolvo_chasov = 1.5
+name_kurs = 'python'
+print(name_kurs+", всего задач: "+str(kolvo_gotov_DZ)+", затрачено часов: "+str(kolvo_chasov)+", среднее время на выполнение: "+str(kolvo_chasov/kolvo_gotov_DZ)+" часа.")

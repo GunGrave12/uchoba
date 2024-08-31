@@ -1,4 +1,7 @@
 kolvo_gotov_DZ = 12
 kolvo_chasov = 1.5
 name_kurs = 'python'
-print(name_kurs+", всего задач: "+str(kolvo_gotov_DZ)+", затрачено часов: "+str(kolvo_chasov)+", среднее время на выполнение: "+str(kolvo_chasov/kolvo_gotov_DZ)+" часа.")
+print("Курс ",name_kurs,", всего задач:",kolvo_gotov_DZ,",затрачено часов:",kolvo_chasov,",среднее время на выполнение:",kolvo_chasov/kolvo_gotov_DZ,"часа.")
+# верхний вариант неверен так как пробелы лишние появляются при перечислении через запятую элементов в print
+# Курс: Python, всего задач:12, затрачено часов: 1.5, среднее время выполнения 0.125 часа.
+print("Курс "+name_kurs+", всего задач:"+str(kolvo_gotov_DZ)+", затрачено часов: "+str(kolvo_chasov)+", среднее время на выполнение "+str(kolvo_chasov/kolvo_gotov_DZ)+" часа.")
